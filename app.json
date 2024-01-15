@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "CalculatorDream",
+    "name": "Калькулятор мечты",
     "slug": "CalculatorDream",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mitsyrin.CalculatorDream"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mitsyrin.CalculatorDream"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "64fbae2d-75dd-48bd-bdf2-13d50ede14ba"
+      }
     }
   }
 }
